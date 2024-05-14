@@ -60,7 +60,7 @@ def show_deprecation_warning():
     warnings.warn(message, UserWarning, stacklevel=2)
 
 
-show_deprecation_warning()
+# show_deprecation_warning()
 
 
 if sys.version_info[:2] == (2, 6):
